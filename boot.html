@@ -12,19 +12,31 @@
   </head>
   <body>
     <div class="container">
-        <div class="row justify-content-start">
-            
-            <div class="col-3">Hello</div>
-            <div class="col-3 offset-3">world</div>
+        <div class="row">
+            <div class="col-3">first column</div>
+            <div class="col-3 offset-3">
+                <div class="row">
+                    <div class="col">sub1</div>
+                    <div class="col">sub2</div>
+                    <div class="col-7">sub3</div>
+                </div>
+            </div>
         </div>
-        <div class="row justify-content-between">
-            <div class="col-3 offset-2">SE</div>
-            
-            
-        </div>
-        <div class="row justify-content-start">
-            <div class="col-3 offset-1">This</div>
-            <div class="col-3 offset-3">is</div>
+        <div class="row justify-content-around">
+            <div class="col-3 offset-2">
+                <div class="row">
+                    <div class="col-5">a</div>
+                    <div class="col-5">b</div>
+                    <div class="col-6">c</div>
+                </div>
+            </div>
+        
+            <div class="col-3 offset-2">
+                <div class="row justify-content-end">
+                    <div class="col-3">ข</div>
+                    <div class="col-3">ก</div>
+                </div>   
+            </div>
         </div>
     </div>
     <!-- <h1>Hello, world!</h1> -->
